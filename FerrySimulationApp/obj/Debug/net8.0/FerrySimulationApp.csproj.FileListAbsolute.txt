@@ -1,0 +1,14 @@
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\bin\Debug\net8.0\FerrySimulationApp.exe
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\bin\Debug\net8.0\FerrySimulationApp.deps.json
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\bin\Debug\net8.0\FerrySimulationApp.runtimeconfig.json
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\bin\Debug\net8.0\FerrySimulationApp.dll
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\bin\Debug\net8.0\FerrySimulationApp.pdb
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.AssemblyInfoInputs.cache
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.AssemblyInfo.cs
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.csproj.CoreCompileInputs.cache
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.dll
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\refint\FerrySimulationApp.dll
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.pdb
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\FerrySimulationApp.genruntimeconfig.cache
+D:\VisualStudioThings\FerrySimulationApp\FerrySimulationApp\obj\Debug\net8.0\ref\FerrySimulationApp.dll
