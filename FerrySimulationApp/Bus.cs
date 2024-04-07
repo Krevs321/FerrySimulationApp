@@ -24,12 +24,7 @@ namespace FerrySimulationApp
 
         public void Refuel()
         {
-            if (CurrentFuel < 10)
-            {
-                Console.WriteLine($"Refueling {GetType().Name}.");
-                CurrentFuel = FuelCapacity;
-                Path.Add('G');
-            }
+            VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
         }
     }
 }

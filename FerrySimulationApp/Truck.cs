@@ -25,20 +25,12 @@ namespace FerrySimulationApp
 
         public void Refuel()
         {
-            if (CurrentFuel < 10)
-            {
-                Console.WriteLine($"Refueling {GetType().Name}.");
-                CurrentFuel = FuelCapacity;
-                Path.Add('G');
-            }
+            VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
         }
 
         public void PerformCustomsCheck()
-        {                   
-            Console.WriteLine($"Inspection started! Doors are opened?: {!CargoDoorsOpen}");
-            Thread.Sleep(1500);
-            Console.WriteLine($"Inspection Done! Doors are opened?: {CargoDoorsOpen}");
-            Path.Add('C');
+        {
+            VehicleCustoms.PerformCustomsCheck(CargoDoorsOpen, Path);
         }
     }
 }

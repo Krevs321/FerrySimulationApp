@@ -21,8 +21,7 @@ namespace FerrySimulationApp
                 return false;
             }
 
-            VehiclePath.VehicleStation(vehicle.Path.Last());     
-            Thread.Sleep(1000);
+            VehiclePath.VehicleStation(vehicle.Path.Last());             
             StandardMessages.AddedToFerry(vehicle, "Big ferry");
             vehicles.Add(vehicle);           
             return true;
@@ -36,8 +35,7 @@ namespace FerrySimulationApp
         }
 
         public bool IsReadyToDepart()
-        {
-           
+        {           
             return vehicles.Count >= Capacity;
         }
     }

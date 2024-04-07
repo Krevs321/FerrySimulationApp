@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FerrySimulationApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d04ef138aaf2db5db5d1aaac31e64ff60d361b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FerrySimulationApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FerrySimulationApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

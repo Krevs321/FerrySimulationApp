@@ -10,13 +10,13 @@ namespace FerrySimulationApp
     {
         public static void ProcessVehicle(IVehicle vehicle)
         {
-            // Directly call Refuel on vehicles that are IRefuelable
+            // Directly call Refuel on vehicles that implemnt IRefuelable
             if (vehicle is IRefuelable refuelableVehicle)
             {
                 refuelableVehicle.Refuel();
             }
 
-            // Other processing steps, like customs checks for applicable vehicles
+            // Directly call PerformCustomsCheck on vehicles that implemnt ICustoms
             if (vehicle is ICustoms customsCheckable)
             {
                 customsCheckable.PerformCustomsCheck();
