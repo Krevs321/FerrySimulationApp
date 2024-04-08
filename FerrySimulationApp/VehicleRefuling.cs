@@ -16,6 +16,7 @@ namespace FerrySimulationApp
                 Console.WriteLine($"Refueling vehicle.");
                 CurrentFuel = FuelCapacity;
                 Path.Add('G');
+                Thread.Sleep(500);
             }
             Thread.Sleep(1000);
         }
