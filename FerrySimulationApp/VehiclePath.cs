@@ -29,10 +29,8 @@ namespace FerrySimulationApp
                     break;                  
                 default:
                     Console.WriteLine("Unknown Location");
-                    break;
-                     
-            }
-            
+                    break;                    
+            }            
         }
     }
 }

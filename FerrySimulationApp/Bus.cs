@@ -18,7 +18,6 @@ namespace FerrySimulationApp
         public Bus()
         {
             CurrentFuel = RandomInstance.Instance.Next(1, (int)FuelCapacity + 1);
-
             Path = new List<char> { 'A' };
         }
 

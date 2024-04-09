@@ -25,7 +25,7 @@ namespace FerrySimulationApp
 
         public void Refuel()
         {
-            VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
+            CurrentFuel = VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
         }
 
         public void PerformCustomsCheck()

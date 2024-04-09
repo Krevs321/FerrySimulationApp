@@ -14,12 +14,24 @@ namespace FerrySimulationApp
         public int MoneyCollected { get; set; } = 0;
         public float MoneyCollectedByInsector { get; set; } = 0;
         public abstract string FerryType { get; }
+        public abstract char FerryStation { get; }
+        public abstract int Multiplier { get; set; }
 
         public bool AddVehicle(IVehicle vehicle)
         {
-            MoneyCollected += vehicle.Fee;      
+            MoneyCollected += vehicle.Fee * Multiplier;      
             MoneyCollectedByInsector += (vehicle.Fee * 0.1f);
-            return VehicleAdding.AddVehicle(vehicle, Vehicles, Capacity, FerryType, 'L');
+            if (Vehicles.Count >= Capacity)
+            {
+                StandardMessages.FerryIsFull(FerryType);
+                return false;
+            }
+
+            //vehicle.Path.Add(FerryStation);
+            VehiclePath.VehicleStation(vehicle.Path.Last());          
+            StandardMessages.AddedToFerry(vehicle, FerryType);
+            Vehicles.Add(vehicle);
+            return true;
         }
 
         public void Depart()
