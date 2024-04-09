@@ -9,8 +9,7 @@ namespace FerrySimulationApp
     public class VehicleAdding
     {
         public static bool AddVehicle(IVehicle vehicle, List<IVehicle> vehicles, int Capacity, string FerryType, char FerryStation)
-        {
-
+        {            
             if (vehicles.Count >= Capacity)
             {
                 StandardMessages.FerryIsFull(FerryType);
