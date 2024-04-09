@@ -14,5 +14,6 @@ namespace FerrySimulationApp
         public override char FerryStation => 'L';
 
         public override int Multiplier { get; set; } = 1;
+
     }
 }

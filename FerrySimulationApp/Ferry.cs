@@ -36,7 +36,7 @@ namespace FerrySimulationApp
 
         public void Depart()
         {
-            Console.WriteLine($"Large Ferry #{NumberOfFerries} departing with {Vehicles.Count} vehicles. Total money collected: {MoneyCollected} Euros. " +
+            Console.WriteLine($"{FerryType} #{NumberOfFerries} departing with {Vehicles.Count} vehicles. Total money collected: {MoneyCollected} Euros. " +
                                 $"Total Money collected by Inspector: {Math.Round(MoneyCollectedByInsector, 2)} Euros");           
             MoneyCollected = 0;
             MoneyCollectedByInsector = 0;
