@@ -8,7 +8,7 @@ namespace FerrySimulationApp
 {
     public class VehicleAdding
     {
-        public static bool AddVehicle(IVehicle vehicle, List<IVehicle> vehicles, int Capacity, string FerryType)
+        public static bool AddVehicle(IVehicle vehicle, List<IVehicle> vehicles, int Capacity, string FerryType, char FerryStation)
         {
 
             if (vehicles.Count >= Capacity)
@@ -17,6 +17,7 @@ namespace FerrySimulationApp
                 return false;
             }
 
+            //vehicle.Path.Add(FerryStation);
             VehiclePath.VehicleStation(vehicle.Path.Last());          
             StandardMessages.AddedToFerry(vehicle, FerryType);
             vehicles.Add(vehicle);

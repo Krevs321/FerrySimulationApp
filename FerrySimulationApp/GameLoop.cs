@@ -17,8 +17,7 @@ namespace FerrySimulationApp
 
                 VehicleProcessFlow.ProcessVehicle(vehicle);
 
-                bool addedToFerry = vehicle is Truck || vehicle is Bus ? bigFerry.AddVehicle(vehicle)
-                : smallFerry.AddVehicle(vehicle);
+                bool addedToFerry = vehicle is Truck || vehicle is Bus ? bigFerry.AddVehicle(vehicle) : smallFerry.AddVehicle(vehicle);
 
                 StandardMessages.VehicleDenied(vehicle, addedToFerry);
 

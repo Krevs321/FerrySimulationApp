@@ -18,13 +18,13 @@ namespace FerrySimulationApp
         {
             MoneyCollected += vehicle.Fee;      
             MoneyCollectedByInsector += (vehicle.Fee * 0.1f);
-            return VehicleAdding.AddVehicle(vehicle, vehicles, Capacity, "Big Ferry");
+            return VehicleAdding.AddVehicle(vehicle, vehicles, Capacity, "Large Ferry", 'L');
         }
 
         public void Depart()
         {
-            Console.WriteLine($"Big Ferry #{numberOfFerries} departing with {vehicles.Count} vehicles. Total money collected: {MoneyCollected} Euros. " +
-                                $"Total Money colled by Inspector: {Math.Round(MoneyCollectedByInsector, 2)} Euros");           
+            Console.WriteLine($"Large Ferry #{numberOfFerries} departing with {vehicles.Count} vehicles. Total money collected: {MoneyCollected} Euros. " +
+                                $"Total Money collected by Inspector: {Math.Round(MoneyCollectedByInsector, 2)} Euros");           
             MoneyCollected = 0;
             MoneyCollectedByInsector = 0;
             numberOfFerries++;
