@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FerrySimulationApp
+﻿namespace FerrySimulationApp
 {
     public class GameLoop
     {

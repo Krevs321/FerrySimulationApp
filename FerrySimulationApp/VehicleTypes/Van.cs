@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FerrySimulationApp
+﻿namespace FerrySimulationApp
 {
-    public class Truck : IVehicle, IRefuelable, ICustoms
+    public class Van : IVehicle, IRefuelable, ICustoms
     {
-        public int Fee => 6;
+        public int Fee => 4;
 
         public float FuelCapacity => 100;
 
@@ -16,8 +10,7 @@ namespace FerrySimulationApp
         public bool CargoDoorsOpen { get; private set; } = false;
         public List<char> Path { get; set; }
 
-
-        public Truck()
+        public Van()
         {
             CurrentFuel = RandomInstance.Instance.Next(1, (int)FuelCapacity + 1);
             Path = new List<char> { 'A' };
@@ -25,7 +18,7 @@ namespace FerrySimulationApp
 
         public void Refuel()
         {
-            CurrentFuel = VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
+            VehicleRefuling.RefuelVehicle(CurrentFuel, FuelCapacity, Path);
         }
 
         public void PerformCustomsCheck()
