@@ -14,6 +14,11 @@
             {
                 ferryType2.Depart();
             }
+
+            // if (ferryType3.IsReadyToDepart())
+            // {
+            //     ferryType3.Depart();
+            // }
         }
     }
 }

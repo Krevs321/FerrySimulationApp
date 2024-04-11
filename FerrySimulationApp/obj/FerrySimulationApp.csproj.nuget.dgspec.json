@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FerrySimulationAppTest\\FerrySimulationApp\\FerrySimulationApp.csproj": {}
+    "D:\\FerrySimulationApp\\FerrySimulationApp\\FerrySimulationApp.csproj": {}
   },
   "projects": {
-    "D:\\FerrySimulationAppTest\\FerrySimulationApp\\FerrySimulationApp.csproj": {
+    "D:\\FerrySimulationApp\\FerrySimulationApp\\FerrySimulationApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FerrySimulationAppTest\\FerrySimulationApp\\FerrySimulationApp.csproj",
+        "projectUniqueName": "D:\\FerrySimulationApp\\FerrySimulationApp\\FerrySimulationApp.csproj",
         "projectName": "FerrySimulationApp",
-        "projectPath": "D:\\FerrySimulationAppTest\\FerrySimulationApp\\FerrySimulationApp.csproj",
-        "packagesPath": "C:\\Users\\Gasper Krevs\\.nuget\\packages\\",
-        "outputPath": "D:\\FerrySimulationAppTest\\FerrySimulationApp\\obj\\",
+        "projectPath": "D:\\FerrySimulationApp\\FerrySimulationApp\\FerrySimulationApp.csproj",
+        "packagesPath": "C:\\Users\\gaspe\\.nuget\\packages\\",
+        "outputPath": "D:\\FerrySimulationApp\\FerrySimulationApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gasper Krevs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\gaspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

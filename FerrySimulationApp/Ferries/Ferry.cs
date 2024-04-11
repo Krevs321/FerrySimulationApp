@@ -14,7 +14,7 @@ namespace FerrySimulationApp
         public bool AddVehicle(IVehicle vehicle)
         {
             MoneyCollected += vehicle.Fee * Multiplier;      
-            MoneyCollectedByInsector += (vehicle.Fee * 0.1f);
+            MoneyCollectedByInsector += (vehicle.Fee * 0.1f * Multiplier);
             if (Vehicles.Count >= Capacity)
             {
                 StandardMessages.FerryIsFull(FerryType);
